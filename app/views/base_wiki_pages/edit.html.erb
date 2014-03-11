@@ -33,6 +33,6 @@
 
 <script>
 $( document ).ready(function() {
-  document.getElementById('page_content').innerHTML = document.getElementById('page_content').innerHTML.replace("&amp;#x000A;", "\n")
+  document.getElementById('page_content').innerHTML = document.getElementById('page_content').innerHTML.replace(/&amp;#x000A;/gi, "\n")
 });
 </script>
